@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon Says</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body
+    class="bg-gray-900 text-white min-h-screen flex flex-col items-center justify-center"
+  >
+    <h1
+      class="text-center text-6xl font-extrabold underline mb-4 text-teal-400"
+    >
+      Simon Says
+    </h1>
+    <div class="mb-4">
+      <h3 class="text-xl text-gray-300">Click Start to begin the game</h3>
+    </div>
+    <div class="mb-8">
+      <button
+        class="px-6 py-3 bg-teal-500 text-white text-lg font-bold rounded-lg hover:bg-teal-600 transition duration-300"
+      >
+        Start
+      </button>
+    </div>
+    <div class="grid grid-cols-3 gap-4">
+      <div
+        class="w-24 h-24 rounded-lg bg-red-500 hover:shadow-lg transition duration-300"
+        type="button"
+        id="red"
+      ></div>
+      <div
+        class="w-24 h-24 rounded-lg bg-green-500 hover:shadow-lg transition duration-300"
+        type="button"
+        id="green"
+      ></div>
+      <div
+        class="w-24 h-24 rounded-lg bg-blue-500 hover:shadow-lg transition duration-300"
+        type="button"
+        id="blue"
+      ></div>
+      <div
+        class="w-24 h-24 rounded-lg bg-yellow-500 hover:shadow-lg transition duration-300"
+        type="button"
+        id="yellow"
+      ></div>
+      <div
+        class="w-24 h-24 rounded-lg bg-purple-500 hover:shadow-lg transition duration-300"
+        type="button"
+        id="purple"
+      ></div>
+      <div
+        class="w-24 h-24 rounded-lg bg-orange-500 hover:shadow-lg transition duration-300"
+        type="button"
+        id="orange"
+      ></div>
+      <div
+        class="w-24 h-24 rounded-lg bg-pink-500 hover:shadow-lg transition duration-300"
+        type="button"
+        id="pink"
+      ></div>
+      <div
+        class="w-24 h-24 rounded-lg bg-teal-500 hover:shadow-lg transition duration-300"
+        type="button"
+        id="teal"
+      ></div>
+      <div
+        class="w-24 h-24 rounded-lg bg-cyan-500 hover:shadow-lg transition duration-300"
+        type="button"
+        id="cyan"
+      ></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
